@@ -1,0 +1,44 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.first-section {
+    padding: 41px 71px;
+    position: relative;
+    text-align: center;
+    background-image: url("../image/hero1.png");
+    background-size: cover;
+}
+
+.logo {
+    margin: 0 auto 376px;
+    width: 102px;
+    height: 23px;
+}
+
+.title {
+    font-size: 60px;
+    font-family: 'Bebas Neue', 'Arial', 'Helvetics Neue', cursive;
+    color: #fff;
+    letter-spacing: 6px;
+    margin-bottom: 21px;
+}
+
+.head_dest {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', 'Arial', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    margin-bottom: 221px;
+}
+
+.scroll {
+
+}
