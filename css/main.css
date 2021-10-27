@@ -8,6 +8,7 @@ body {
     padding: 0;
     width: 100%;
     font-family: 'Open Sans', 'Arial', 'Helvetica Neue', sans-serif;
+    color: #48555B;
 }
 
 body header,
@@ -108,8 +109,78 @@ nav a:hover {
     color: #00A4E5;
 }
 
-.story__title {
+.story-title {
     position: relative;
     text-align: center;
-    
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 70px;
+    padding: 25px;
+    letter-spacing: 2px;
+    color: #48555B;
+}
+
+.story-title::after {
+    content: '';
+    width: 52px;
+    height: 2px;
+    background-color: #00A4E5;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    transform: translateX(-80px);
+}
+
+.story {
+    display: flex;
+}
+
+.dest__title, .dest__dest {
+    margin-right: 41px;
+}
+
+.dest__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.dest__title span {
+    color: #16ACE8;
+}
+
+.dest__dest {
+    font-size: 13px;
+}
+
+.card-holder {
+    display: flex;
+    margin-left: 42px;
+}
+
+.card {
+    position: relative;
+    width: 140px;
+    height: 224px;
+    margin: 10px;
+}
+
+.card h3 {
+    position: relative;
+    top: 22px;
+    left: 14px;
+    z-index: 3;
+    color: #fff;
+    width: 20px;
+    line-height: 29px;
+    font-weight: 800;
+}
+
+.card img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
