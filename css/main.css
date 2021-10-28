@@ -69,6 +69,10 @@ h2, h3 {
     font-weight: 600;
 }
 
+.scroll:hover {
+    font-size: 20px;
+}
+
 header {
     position: relative;
     display: flex;
@@ -184,3 +188,75 @@ nav a:hover {
     bottom: 0;
     z-index: 1;
 }
+
+.head {
+    display: flex;
+    align-items: baseline;
+}
+
+.story-title--cap {
+    font-size: 18px;
+    margin-right: 155px;
+}
+
+.story-title--cap::after {
+    transform: translateX(-196px) 
+}
+
+.text {
+    width: 386px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    margin-right: 35px;
+}
+
+.button {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #00A4E5;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13;
+    letter-spacing: .5px;
+    background-color: #00A4E5;
+}
+
+.button:hover {
+    color: #48555B;
+    background-color: #fff;
+}
+
+.holder {
+    display: flex;
+    margin-bottom: 118px;
+}
+
+.dept {
+    width: 33.333%;
+    margin: 80px 14px;
+    padding: 38px 23px;
+    border: 1px solid #E6E6E6;
+}
+
+.icon {
+    width: 71px;
+    height: 75px;
+}
+
+.dept__title {
+    margin: 26px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.dept__dest {
+    font-size: 13px;
+    line-height: 23px;
+
+}
+
