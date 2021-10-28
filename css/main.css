@@ -260,3 +260,67 @@ nav a:hover {
 
 }
 
+.contact {
+    padding: 0;
+}
+
+.touch {
+    text-align: center;
+    background-size: cover;
+    background-image: url('../image/hero2.png');
+    padding-bottom: 230px;
+}
+
+.contact__title {
+    text-transform: none;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 350px;
+    margin: 40px auto;
+    margin-top: 122px;
+}
+
+.seller {
+    background-color: #171819;
+    margin: 0;
+    text-align: center;
+}
+
+.seller__title {
+    display: inline-block;
+    margin: 35px 70px;
+    text-transform: none;
+    color: #fff;
+    font-style: 22px;
+    font-weight: 600;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type="email"] {
+    width: 249px;
+    height: 40px;
+    border: 1px solid #E6E6E6;
+    padding-left: 15px;
+}
+
+input[type="email"]::placeholder {
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.button--form {
+    transition: .3s all ease-in-out;
+    height: 44px;
+    position: relative;
+    transform: translate(-5px, 1px);
+}
+
+
+
+
+
+
